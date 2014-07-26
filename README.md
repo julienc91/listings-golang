@@ -44,7 +44,7 @@ This version was adapted from the [golang-latex-listings][1] project.
     \end{lstlisting}
     \end{document}
 
-Don't forget to put the file `listings-golang` in the folder of your project,
+Don't forget to put the file `listings-golang.sty` in the folder of your project,
 or with the other installed packages.
 
 
