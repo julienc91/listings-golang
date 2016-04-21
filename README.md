@@ -3,11 +3,11 @@ listings-golang
 
 This package provides Golang support for the `listings` package in LaTeX.
 
-* Author: Julien CHAUMONT (http://julienc.io)
+* Author: Julien CHAUMONT (https://julienc.io)
 * Version: 1.0
 * Date: 2014-07-26
 * Licence: GPL v2
-* Url: http://github.io/julienc91/listings-golang
+* Url: http://github.com/julienc91/listings-golang
 * Golang version: 1.3
 
 This version was adapted from the [golang-latex-listings][1] project.
