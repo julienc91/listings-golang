@@ -14,35 +14,38 @@ This version was adapted from the [golang-latex-listings][1] project.
 
 ## Usage
 
-    \documentclass[12pt,a4paper]{report}
-    \usepackage[utf8]{inputenc}
-    \usepackage{listings}
-    \usepackage{listings-golang} % import this package after listings
-    \usepackage{color}
+```latex
 
-    \lstset{ % add your own preferences
-        frame=single,
-        basicstyle=\footnotesize,
-        keywordstyle=\color{red},
-        numbers=left,
-        numbersep=5pt,
-        showstringspaces=false, 
-        stringstyle=\color{blue},
-        tabsize=4,
-        language=Golang % this is it !
-    }
+\documentclass[12pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{listings-golang} % import this package after listings
+\usepackage{color}
 
-    \begin{document}
-    \begin{lstlisting}
-    package main
+\lstset{ % add your own preferences
+    frame=single,
+    basicstyle=\footnotesize,
+    keywordstyle=\color{red},
+    numbers=left,
+    numbersep=5pt,
+    showstringspaces=false, 
+    stringstyle=\color{blue},
+    tabsize=4,
+    language=Golang % this is it !
+}
 
-    import "fmt"
+\begin{document}
+\begin{lstlisting}
+package main
 
-    func main() {
-        fmt.Println("Hello World!")
-    }
-    \end{lstlisting}
-    \end{document}
+import "fmt"
+
+func main() {
+    fmt.Println("Hello World!")
+}
+\end{lstlisting}
+\end{document}
+```
 
 Don't forget to put the file `listings-golang.sty` in the folder of your project,
 or with the other installed packages.
