@@ -8,7 +8,7 @@ This package provides Golang support for the `listings` package in LaTeX.
 * Date: 2014-07-26
 * Licence: GPL v2
 * Url: http://github.com/julienc91/listings-golang
-* Golang version: 1.3
+* Golang version: 1.9
 
 This version was adapted from the [golang-latex-listings][1] project.
 
